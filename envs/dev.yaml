@@ -26,7 +26,7 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
-  tls: []
+  tls:
     - secretName: dev-artemis-tls
       hosts:
         - dev-artemis.gglapp.org
