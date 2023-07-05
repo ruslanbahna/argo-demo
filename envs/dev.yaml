@@ -5,7 +5,7 @@ image:
   tag: "2.0.0"
 
 imagePullSecrets:
-  - regcred
+  - name: regcred
 
 
 service:
